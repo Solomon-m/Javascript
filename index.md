@@ -315,6 +315,13 @@ add(2,3)
 ```
 > Using Function constructor is slower than creating functions directly.
 
+Arrow function : 
+```
+let greetings= (name)=>{
+  return `Hello ${name}`;
+}
+
+```
 ### Hoisting : 
 Hoisting means “moving to the beginning of a scope.” 
 - Function declarations are hoisted completely
